@@ -24,7 +24,7 @@
     "worker"
   ],
   "scripts": {
-    "build": "npx tsc -p tsconfig.json && node --test"
+    "build": "rm *.js *.map.js *.d.ts || true && npx tsc -p tsconfig.json && node --test"
   },
   "author": "Vladislav Botvin",
   "license": "MIT",
