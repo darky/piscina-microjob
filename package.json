@@ -9,7 +9,6 @@
     "index.d.ts",
     "index.js.map",
     "worker.js",
-    "worker.d.ts",
     "worker.js.map"
   ],
   "repository": {
