@@ -3,6 +3,27 @@
   "version": "0.1.0",
   "description": "CPU bound routines over Piscina thread pool",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.js.map",
+    "worker.js",
+    "worker.d.ts",
+    "worker.js.map"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:darky/piscina-microjob.git"
+  },
+  "keywords": [
+    "piscina",
+    "thread",
+    "pool",
+    "routine",
+    "goroutine",
+    "worker"
+  ],
   "scripts": {
     "build": "npx tsc -p tsconfig.json && node --test"
   },
